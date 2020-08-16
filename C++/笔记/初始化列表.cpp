@@ -14,7 +14,7 @@ public:
 
 	Person(int a, int b, int c) :m_A(a), m_B(b), m_C(c){}
 
-} 
+};
 
 void test()
 {
