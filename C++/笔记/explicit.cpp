@@ -26,7 +26,6 @@ void test_explicit()
 }
 
 
-
 int main()
 {
 	test_explicit();
