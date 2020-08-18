@@ -37,7 +37,6 @@ private:
 	int m_Num;
 };
 
-//全局函数实现
 ostream& operator<<(ostream &cout, myInter& myInt)
 {
 	cout << "m_Name = " << myInt.m_Num << endl;
