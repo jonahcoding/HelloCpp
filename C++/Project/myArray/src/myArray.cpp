@@ -56,6 +56,11 @@ int myArray::getSize()
 	return this->m_Size;
 }
 
+int& myArray::operator[](int index)
+{
+	return this->pAddress[index];
+}
+
 myArray::~myArray()
 {
 	if (this->pAddress != NULL)

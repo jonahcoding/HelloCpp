@@ -35,7 +35,8 @@ void test_myArray()
 	arr3.setData(0, 1000);
 	cout << "setData(0, 1000)£º" << arr3.getData(0) << endl;
 
-	//arr3[1] = 100;
+	arr3[1] = 100;
+	cout << "arr3[1] = " << arr3[1] << endl;
 
 }
 

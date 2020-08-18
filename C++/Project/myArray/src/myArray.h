@@ -15,7 +15,7 @@ myArray类的实现：
 	6. 按位置获取数据。
 	7. 获取数组容量。
 	8. 获取数组大小。
-	9.
+	9. []运算符重载。
 --------------------------------------------------
 */
 
@@ -33,6 +33,7 @@ public:
 	int getData(int pos);//按位置获取数据
 	int getCapacity();//获取数组容量
 	int getSize();//获取数组大小
+	int& operator[](int index);
 
 	~myArray();
 
