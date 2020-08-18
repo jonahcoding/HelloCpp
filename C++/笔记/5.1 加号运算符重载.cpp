@@ -49,7 +49,7 @@ Person operator+(Person& p1, int num)
 	return tmp;
 }
 
-void test_oper1()
+void test_operAdd()
 {
 	Person p1(10, 20);
 	Person p2(20, 30);
@@ -69,7 +69,7 @@ void test_oper1()
 
 int main()
 {
-	test_oper1();
+	test_operAdd();
 
 	system("pause");
 	return 0;
