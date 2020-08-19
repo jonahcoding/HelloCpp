@@ -53,7 +53,7 @@ public:
 };
 
 
-void test01()
+void extend_Gram()
 {
 	News news;
 	cout << "新闻页面内容如下：" << endl;
@@ -72,7 +72,7 @@ void test01()
 
 
 int main(){
-	test01();
+	extend_Gram();
 
 	system("pause");
 	return EXIT_SUCCESS;
