@@ -4,14 +4,14 @@
 
 #include "DynamicArray.h"
 
-//	测试数据
+//测试数据
 struct Letter
 {
 	char key[64];
 	int value;
 };
 
-//	打印自定义数据类型
+//打印自定义数据类型
 void myPrint(void * data)
 {
 	struct Letter *p = data;

@@ -6,10 +6,10 @@
 
 
 /*
- *	结构体：动态数组
- *  成员pAddr：指向堆区动态数组元素的指针（数组元素初始为void*类型）。
- *	成员m_capacity：动态数组容量。
- *	成员m_size：动态数组大小。
+ *结构体：动态数组
+ * 成员pAddr：指向堆区动态数组元素的指针（数组元素初始为void*类型）。
+ *成员m_capacity：动态数组容量。
+ *成员m_size：动态数组大小。
  */
 struct dynamicArray {
 	void** pAddr;

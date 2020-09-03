@@ -1,7 +1,7 @@
 #include "DynamicArray.h"
 /*
- *	功能：初始化动态数组
- *  参数capacity：动态数组容量初始值。
+ *功能：初始化动态数组
+ *参数capacity：动态数组容量初始值。
  */
 struct dynamicArray*  init_DynamicArray(int capacity)
 {
@@ -24,7 +24,7 @@ struct dynamicArray*  init_DynamicArray(int capacity)
 }
 
 /*
- *	功能：动态数组插入元素
+ *功能：动态数组插入元素
  */
 void insert_DynamicArray(struct dynamicArray * array, int pos, void* data)
 {
@@ -63,7 +63,7 @@ void insert_DynamicArray(struct dynamicArray * array, int pos, void* data)
 }
 
 /*
- *	功能：遍历动态数组
+ *功能：遍历动态数组
  */
 void foreach_DynamicArray(struct dynamicArray * array, void(*myPrint)(void *))
 {
@@ -84,7 +84,7 @@ void foreach_DynamicArray(struct dynamicArray * array, void(*myPrint)(void *))
 }
 
 /*
- *	功能：按位置删除元素
+ *功能：按位置删除元素
  */
 void removeByPos_DynamicArray(struct dynamicArray * array, int pos)
 {
@@ -107,7 +107,7 @@ void removeByPos_DynamicArray(struct dynamicArray * array, int pos)
 }
 
 /*
- *	功能：按值删除元素
+ *功能：按值删除元素
  */
 void removeByValue_DynamicArray(struct dynamicArray * array, void * data, int(*myCompare)(void *, void *))
 {
@@ -127,7 +127,7 @@ void removeByValue_DynamicArray(struct dynamicArray * array, void * data, int(*m
 }
 
 /*
- *	功能：销毁动态数组
+ *功能：销毁动态数组
  */
 void destory_DynamicArray(struct dynamicArray * array)
 {
