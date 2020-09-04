@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
+using namespace std;
 
 /*
 --------------------------------------------------
@@ -15,8 +16,6 @@
 		
 --------------------------------------------------
 */
-
-using namespace std;
 
 //基类
 class CPU
