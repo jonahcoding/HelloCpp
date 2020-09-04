@@ -36,12 +36,12 @@ public:
 	//虚函数
 	virtual void speak()
 	{
-		cout << "动物在说话" << endl;
+		cout << "动物叫" << endl;
 	}
 
 	virtual void eat(int a)
 	{
-		cout << "动物在吃饭" << endl;
+		cout << "动物吃" << endl;
 	}
 };
 
@@ -50,12 +50,12 @@ class Cat :public Animal
 public:
 	void speak()
 	{
-		cout << "小猫在说话" << endl;
+		cout << "小猫喵喵叫" << endl;
 	}
 
 	void eat(int a)
 	{
-		cout << "小猫在吃饭" << endl;
+		cout << "小猫吃猫粮" << endl;
 	}
 };
 
@@ -64,7 +64,7 @@ class Dog :public Animal
 public:
 	void speak()
 	{
-		cout << "小狗在说话" << endl;
+		cout << "小狗吃狗粮" << endl;
 	}
 };
 
@@ -97,13 +97,13 @@ void test_Polymorphism2()
 	// *(int *)animal 解引用到虚函数表中
 	// *(int *)*(int *)animal 解引用到函数speak地址
 
-	//调用猫说话
+	//调用猫喵喵叫
 	((void(*)()) (*(int*)*(int*)animal)) ();
 
 
 	//C/C++默认调用惯例  __cdecl
 	//用下列调用时候 真实调用惯例  是 __stdcall
-	//调用猫吃饭
+	//调用猫吃猫粮
 	typedef void(__stdcall* FUNPOINT)(int);
 
 	(FUNPOINT(*((int*)*(int*)animal + 1)))(10);
