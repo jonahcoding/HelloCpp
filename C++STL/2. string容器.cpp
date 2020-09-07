@@ -8,9 +8,9 @@ using namespace std;
 /*
 --------------------------------------------------
 string与c-type字符串：
-1.string类，char*指针。（string封装了char*）。
-2.string成员方法：查找、拷贝、删除、替换、插入。
-3.string无需考虑内存释放和越界，由String类维护。
+	1.string类，char*指针。（string封装了char*）。
+	2.string成员方法：查找、拷贝、删除、替换、插入。
+	3.string无需考虑内存释放和越界，由String类维护。
 
 构造函数：
 string();//创建一个空字符串。
