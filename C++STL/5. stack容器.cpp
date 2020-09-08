@@ -10,6 +10,7 @@ using namespace std;
 stack（栈）：
 	stack是一种先进后出(FILO)的数据结构，只有一个出口。
 	只允许从最顶端存取元素（stack不允许有遍历行为。）
+	没有迭代器。
 
 push:将元素推入栈。
 pop:将元素推出栈。
