@@ -11,7 +11,7 @@ Good Good Study, Day Day Up！
  　　　　　　　┃　　　━　　　┃
 　 　　　　　　┃　＞　　　＜　┃
  　　　　　　　┃　　　　　　　┃
- 　　　　　　　┃...　⌒　...　┃
+ 　　　　　　　┃...　⌒  ... ┃
  　　　　　　　┃　　　　　　　┃
  　　　　　　　┗━┓　　　┏━┛
  　　　　　　　　　┃　　　┃　Code is far away from bug with the animal protecting
