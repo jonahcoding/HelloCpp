@@ -56,6 +56,7 @@ T(n) = O(f(n))
 --------------------------------------------------
 最好（最快）、最坏（最慢）、平均时间复杂度：
 
+伪代码（三）：
 bool find_element(int a[], int x)
 {
 	int pos = -1;
@@ -93,7 +94,9 @@ bool find_element(int a[], int x)
 ==================================================
 */
 
-int main() {
-
-    return 0;
+int main()
+{
+	
+	system("pause");	
+    	return 0;
 }
