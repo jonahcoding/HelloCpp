@@ -53,6 +53,7 @@ T(n) = O(f(n))
 --------------------------------------------------
 最好（最快）、最坏（最慢）、平均时间复杂度：
 
+伪代码（三）：
 bool find_element(int a[], int x)
 {
 	int pos = -1;
@@ -88,4 +89,15 @@ bool find_element(int a[], int x)
 均摊时间复杂度：
 	摊还分析法：
 ==================================================
+<<<<<<< HEAD:DataStructure/Notes/01 time complexity.c
 */
+=======
+*/
+
+int main()
+{
+	
+	system("pause");	
+    	return 0;
+}
+>>>>>>> f46387df49bba739051ac411bdf923955fbb7895:DataStructure/Notes/01 time complexity.cpp
