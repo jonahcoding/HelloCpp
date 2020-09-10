@@ -1,4 +1,4 @@
-﻿/*
+/*
 ==================================================
 时间复杂度：
     默认执行一行指令花费一个unit_time
@@ -89,9 +89,6 @@ bool find_element(int a[], int x)
 均摊时间复杂度：
 	摊还分析法：
 ==================================================
-<<<<<<< HEAD:DataStructure/Notes/01 time complexity.c
-*/
-=======
 */
 
 int main()
@@ -100,4 +97,3 @@ int main()
 	system("pause");	
     	return 0;
 }
->>>>>>> f46387df49bba739051ac411bdf923955fbb7895:DataStructure/Notes/01 time complexity.cpp
