@@ -4,7 +4,6 @@ Good Good Study, Day Day Up！
 
 
 ```
-/*
  　　　　　　　　┏┓　　　┏┓
  　　　　　　　┏┛┻━━━┛┻┓
  　　　　　　　┃　　　　　　　┃
@@ -26,5 +25,4 @@ Good Good Study, Day Day Up！
  　　　　　　　　　┗┓┓┏━┳┓┏┛
 　　　　　　　　　　┃┫┫　┃┫┫
 　　　　　　　　　　┗┻┛　┗┻┛
-*/
 ```
