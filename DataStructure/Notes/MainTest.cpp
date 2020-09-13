@@ -4,6 +4,8 @@
 #include "ArrayQueueTest.h"
 #include "LoopQueueTest.h"
 #include "LinkedListTest.h"
+#include "LinkedListStackTest.h"
+#include "LinkedListQueueTest.h"
 
 using namespace std;
 
@@ -14,5 +16,6 @@ int main()
 	//ArrayQueueTest();
 	//LoopQueueTest();
 	//LinkedListTest();
-
+	//LinkedListStackTest();
+	LinkedListQueueTest();
 }
