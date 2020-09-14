@@ -21,14 +21,14 @@ public:
 		cout << "--------------------" << endl;
 
 		BST<int> bst;
-		cout << "Binary Search Tree 是否为空：" << bst.isEmpty() << endl;
+		cout << "Binary Search Tree Is Empty? " << bst.isEmpty() << endl;
 		
 		for (vector<int>::iterator it = vGRN.begin(); it != vGRN.end(); it++)
 		{
 			bst.add(*it);
 		}
 
-		cout << "Binary Search Tree 大小：" << bst.size() << endl;
+		cout << "Binary Search Tree 麓贸脨隆拢潞" << bst.size() << endl;
 		bst.levelOrder();
 		bst.preOrder();
 		bst.preOrderNR();
@@ -36,13 +36,9 @@ public:
 		bst.inOrderNR();
 		bst.postOrder();
 		bst.postOrderNR();
-
-
-
+		
 		cout << endl;
-
 		cout << "====================" << endl;
 		cout << endl;
 	}
-
 };
