@@ -8,10 +8,12 @@
 #include "LinkedListTest.h"
 #include "LinkedListStackTest.h"
 #include "LinkedListQueueTest.h"
+#include "BSTTest.h"
+#include "BSTSetTest.h"
+#include "LinkedListSetTest.h"
+#include "BSTMapTest.h"
 
 #include "GetRandomNumbersTest.h"
-
-#include "BSTTest.h"
 
 
 
@@ -19,6 +21,8 @@ using namespace std;
 
 int main()
 {
+	//GetRandomNumbersTest();
+
 	//ArrayTest();
 	//ArrayStackTest();
 	//ArrayQueueTest();
@@ -26,8 +30,10 @@ int main()
 	//LinkedListTest();
 	//LinkedListStackTest();
 	//LinkedListQueueTest();
-	//GetRandomNumbersTest();
-	BSTTest();
+	//BSTTest();
+	//BSTSetTest();
+	//LinkedListSetTest();
+	BSTMapTest();
 
 	system("pause");
 	return 0;

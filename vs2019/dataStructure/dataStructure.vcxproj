@@ -148,6 +148,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BST.h" />
+    <ClInclude Include="src\BSTMap.h" />
+    <ClInclude Include="src\BSTMapTest.h" />
+    <ClInclude Include="src\BSTSet.h" />
+    <ClInclude Include="src\BSTSetTest.h" />
     <ClInclude Include="src\BSTTest.h" />
     <ClInclude Include="src\BTNode.h" />
     <ClInclude Include="src\GetRandomNumbers.h" />
@@ -155,15 +159,21 @@
     <ClInclude Include="src\LinkedList.h" />
     <ClInclude Include="src\LinkedListQueue.h" />
     <ClInclude Include="src\LinkedListQueueTest.h" />
+    <ClInclude Include="src\LinkedListSet.h" />
+    <ClInclude Include="src\LinkedListSetTest.h" />
     <ClInclude Include="src\LinkedListStack.h" />
     <ClInclude Include="src\LinkedListStackTest.h" />
     <ClInclude Include="src\LoopQueue.h" />
+    <ClInclude Include="src\Map.h" />
+    <ClInclude Include="src\MapBST.h" />
+    <ClInclude Include="src\MapBSTNode.h" />
     <ClInclude Include="src\Node.h" />
     <ClInclude Include="src\Queue.h" />
     <ClInclude Include="src\ArrayQueue.h" />
     <ClInclude Include="src\ArrayStack.h" />
     <ClInclude Include="src\Array.h" />
     <ClInclude Include="src\ArrayTest.h" />
+    <ClInclude Include="src\Set.h" />
     <ClInclude Include="src\Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

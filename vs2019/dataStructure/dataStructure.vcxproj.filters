@@ -69,6 +69,36 @@
     <ClInclude Include="src\GetRandomNumbersTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\Set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BSTSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BSTSetTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinkedListSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinkedListSetTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MapBSTNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MapBST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BSTMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BSTMapTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MainTest.cpp">

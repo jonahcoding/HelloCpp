@@ -166,7 +166,7 @@ inline T LinkedList<T>::getLast()
 template<class T>
 inline bool LinkedList<T>::contains(T num)
 {
-	Node<T>* node = head->next;
+	Node<T>* node = head.next;
 	while (node)
 	{
 		if (node->m_data == num)

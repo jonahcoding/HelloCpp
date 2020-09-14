@@ -21,7 +21,7 @@ public:
 		cout << "--------------------" << endl;
 
 		BST<int> bst;
-		cout << "Binary Search Tree ÊÇ·ñÎª¿Õ£º" << bst.isEmpty() << endl;
+		cout << "Binary Search Tree Is Empty? " << bst.isEmpty() << endl;
 		
 		for (vector<int>::iterator it = vGRN.begin(); it != vGRN.end(); it++)
 		{

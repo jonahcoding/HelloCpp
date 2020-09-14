@@ -29,7 +29,7 @@ public:
 
 		if (!m_repeatFlag)
 		{
-			if ((m_end - m_begin) < m_sum)
+			if ((m_end - m_begin + 1) < m_sum)
 			{
 				cout << "If duplicate numbers are not allowed,please ensure " ;
 				cout << "that the number of random numbers to be obtained ";
