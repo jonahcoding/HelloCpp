@@ -54,6 +54,21 @@
     <ClInclude Include="src\LinkedListQueueTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\BTNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BSTTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GetRandomNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GetRandomNumbersTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MainTest.cpp">

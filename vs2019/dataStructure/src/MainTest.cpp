@@ -1,4 +1,6 @@
 #include <iostream>
+
+
 #include "ArrayTest.h"
 #include "ArrayStackTest.h"
 #include "ArrayQueueTest.h"
@@ -6,6 +8,12 @@
 #include "LinkedListTest.h"
 #include "LinkedListStackTest.h"
 #include "LinkedListQueueTest.h"
+
+#include "GetRandomNumbersTest.h"
+
+#include "BSTTest.h"
+
+
 
 using namespace std;
 
@@ -17,5 +25,10 @@ int main()
 	//LoopQueueTest();
 	//LinkedListTest();
 	//LinkedListStackTest();
-	LinkedListQueueTest();
+	//LinkedListQueueTest();
+	//GetRandomNumbersTest();
+	BSTTest();
+
+	system("pause");
+	return 0;
 }
