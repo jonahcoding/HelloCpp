@@ -13,7 +13,7 @@ public:
 		bool GRN_REPEAT = false;
 		bool GRN_ORDER = false;
 		bool GRN_DESCEND = false;
-		GetRandomNumbers grn(0, 100, 15, GRN_REPEAT, GRN_ORDER, GRN_DESCEND);
+		GetRandomNumbers grn(1, 15, 15, GRN_REPEAT, GRN_ORDER, GRN_DESCEND);
 		vGRN = grn.getGRN();
 
 		cout << "====================" << endl;
@@ -28,21 +28,28 @@ public:
 			bst.add(*it);
 		}
 
-		cout << "Binary Search Tree 大小：" << bst.size() << endl;
 		bst.levelOrder();
 		bst.preOrder();
-		bst.preOrderNR();
 		bst.inOrder();
-		bst.inOrderNR();
 		bst.postOrder();
+		bst.preOrderNR();
+		bst.inOrderNR();
 		bst.postOrderNR();
 
-
+		cout << "是否含有元素8： " << bst.contains(8) << endl;
+		bst.preOrder();
+		bst.inOrder();
+		bst.remove(8);
+		cout << "是否含有元素8： " << bst.contains(8) << endl;
+		bst.preOrder();
+		bst.inOrder();
+		bst.add(16);
+		bst.preOrder();
+		bst.inOrder();
 
 		cout << endl;
 
 		cout << "====================" << endl;
 		cout << endl;
 	}
-
 };

@@ -27,7 +27,7 @@ int main()
 	//LinkedListStackTest();
 	//LinkedListQueueTest();
 	//GetRandomNumbersTest();
-	BSTTest();
+	//BSTTest();
 
 	system("pause");
 	return 0;

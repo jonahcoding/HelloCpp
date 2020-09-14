@@ -8,7 +8,7 @@ template<class T>
 class BST
 {
 public:
-	BST() { root = NULL; }
+	BST() { root = NULL; m_size = 0; }
 	void add(T num);
 	void remove(T num);
 	bool contains(T num);
@@ -23,7 +23,7 @@ public:
 	bool isEmpty() { return m_size == 0; };
 private:
 	BTNode<T>* add(BTNode<T> *node, T num);
-	BTNode<T> remove(BTNode<T> *node, T num);
+	BTNode<T>* remove(BTNode<T> *node, T num);
 	bool contains(BTNode<T> *node, T num);
 	void preOrder(BTNode<T> *node);
 	void inOrder(BTNode<T> *node);
@@ -206,7 +206,7 @@ inline BTNode<T>* BST<T>::add(BTNode<T>* node, T num)
 }
 
 template<class T>
-inline BTNode<T> BST<T>::remove(BTNode<T>* node, T num)
+inline BTNode<T>* BST<T>::remove(BTNode<T>* node, T num)
 {
 	if (node == NULL)
 	{

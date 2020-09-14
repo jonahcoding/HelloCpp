@@ -1,2 +1,4 @@
 E:\Workspace\Git\dataStructure\Debug\dataStructure.exe
 E:\Workspace\Git\dataStructure\Debug\dataStructure.pdb
+E:\Workspace\Git\Cpp-Learning\vs2019\dataStructure\Debug\dataStructure.exe
+E:\Workspace\Git\Cpp-Learning\vs2019\dataStructure\Debug\dataStructure.pdb
