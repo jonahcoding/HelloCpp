@@ -23,7 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{0556257c-3a51-4f12-8500-9bc2ce1f4912}</ProjectGuid>
     <RootNamespace>dataStructure</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\LinkedListMapTest.h" />
     <ClCompile Include="src\LinkedListTest.h" />
     <ClCompile Include="src\LoopQueueTest.h" />
     <ClCompile Include="src\ArrayQueueTest.h" />
@@ -147,6 +148,8 @@
     <ClCompile Include="src\MainTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ArrayPriorityQueue.h" />
+    <ClInclude Include="src\ArrayPriorityQueueTest.h" />
     <ClInclude Include="src\BST.h" />
     <ClInclude Include="src\BSTMap.h" />
     <ClInclude Include="src\BSTMapTest.h" />
@@ -157,6 +160,9 @@
     <ClInclude Include="src\GetRandomNumbers.h" />
     <ClInclude Include="src\GetRandomNumbersTest.h" />
     <ClInclude Include="src\LinkedList.h" />
+    <ClInclude Include="src\LinkedListMap.h" />
+    <ClInclude Include="src\LinkedListPriorityQueue.h" />
+    <ClInclude Include="src\LinkedListPriorityQueueTest.h" />
     <ClInclude Include="src\LinkedListQueue.h" />
     <ClInclude Include="src\LinkedListQueueTest.h" />
     <ClInclude Include="src\LinkedListSet.h" />
@@ -167,12 +173,21 @@
     <ClInclude Include="src\Map.h" />
     <ClInclude Include="src\MapBST.h" />
     <ClInclude Include="src\MapBSTNode.h" />
+    <ClInclude Include="src\MapNode.h" />
+    <ClInclude Include="src\MaxHeap.h" />
+    <ClInclude Include="src\MaxHeapTest.h" />
+    <ClInclude Include="src\Merger.h" />
+    <ClInclude Include="src\MergerNew.h" />
     <ClInclude Include="src\Node.h" />
+    <ClInclude Include="src\PriorityQueue.h" />
+    <ClInclude Include="src\PriorityQueueTest.h" />
     <ClInclude Include="src\Queue.h" />
     <ClInclude Include="src\ArrayQueue.h" />
     <ClInclude Include="src\ArrayStack.h" />
     <ClInclude Include="src\Array.h" />
     <ClInclude Include="src\ArrayTest.h" />
+    <ClInclude Include="src\SegmentTree.h" />
+    <ClInclude Include="src\SegmentTreeTest.h" />
     <ClInclude Include="src\Set.h" />
     <ClInclude Include="src\Stack.h" />
   </ItemGroup>

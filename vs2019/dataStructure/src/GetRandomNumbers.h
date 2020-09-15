@@ -23,9 +23,9 @@ public:
 
 	vector<int> getGRN()
 	{
-		std::srand(unsigned(std::time(0)));
-		std::set<int> s_GRN;
-		std::vector<int> v_GRN;
+		srand(unsigned(time(0)));
+		set<int> s_GRN;
+		vector<int> v_GRN;
 
 		if (!m_repeatFlag)
 		{

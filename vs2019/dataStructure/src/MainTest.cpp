@@ -12,6 +12,12 @@
 #include "BSTSetTest.h"
 #include "LinkedListSetTest.h"
 #include "BSTMapTest.h"
+#include "LinkedListMapTest.h"
+#include "MaxHeapTest.h"
+#include "PriorityQueueTest.h"
+#include "ArrayPriorityQueueTest.h"
+#include "LinkedListPriorityQueueTest.h"
+#include "SegmentTreeTest.h"
 
 #include "GetRandomNumbersTest.h"
 
@@ -33,7 +39,14 @@ int main()
 	//BSTTest();
 	//BSTSetTest();
 	//LinkedListSetTest();
-	BSTMapTest();
+	//BSTMapTest();
+	//LinkedListMapTest();
+	//MaxHeapTest();
+	//PriorityQueueTest();
+	//ArrayPriorityQueueTest();
+	//LinkedListPriorityQueueTest();
+	//SegmentTreeTest();// Daze! QAQ
+
 
 	system("pause");
 	return 0;

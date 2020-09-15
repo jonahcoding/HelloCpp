@@ -99,6 +99,48 @@
     <ClInclude Include="src\BSTMapTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\MapNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinkedListMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MaxHeap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MaxHeapTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PriorityQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PriorityQueueTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArrayPriorityQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArrayPriorityQueueTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinkedListPriorityQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinkedListPriorityQueueTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SegmentTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Merger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MergerNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SegmentTreeTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MainTest.cpp">
@@ -114,6 +156,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\LinkedListTest.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LinkedListMapTest.h">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
