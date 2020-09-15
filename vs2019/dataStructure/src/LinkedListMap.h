@@ -1,6 +1,8 @@
 #pragma once
 
 #include <iostream>
+using namespace std;
+
 #include"Map.h"
 #include "MapNode.h"
 

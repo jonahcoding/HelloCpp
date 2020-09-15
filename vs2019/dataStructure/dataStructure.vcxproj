@@ -23,7 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{0556257c-3a51-4f12-8500-9bc2ce1f4912}</ProjectGuid>
     <RootNamespace>dataStructure</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -190,6 +190,9 @@
     <ClInclude Include="src\SegmentTreeTest.h" />
     <ClInclude Include="src\Set.h" />
     <ClInclude Include="src\Stack.h" />
+    <ClInclude Include="src\Trie.h" />
+    <ClInclude Include="src\TrieNode.h" />
+    <ClInclude Include="src\TrieTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

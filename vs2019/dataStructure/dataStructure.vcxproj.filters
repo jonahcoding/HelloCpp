@@ -141,6 +141,15 @@
     <ClInclude Include="src\SegmentTreeTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\TrieNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrieTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MainTest.cpp">

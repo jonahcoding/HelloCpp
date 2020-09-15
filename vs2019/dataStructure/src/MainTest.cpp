@@ -18,6 +18,7 @@
 #include "ArrayPriorityQueueTest.h"
 #include "LinkedListPriorityQueueTest.h"
 #include "SegmentTreeTest.h"
+#include "TrieTest.h"
 
 #include "GetRandomNumbersTest.h"
 
@@ -46,7 +47,7 @@ int main()
 	//ArrayPriorityQueueTest();
 	//LinkedListPriorityQueueTest();
 	//SegmentTreeTest();// Daze! QAQ
-
+	TrieTest();
 
 	system("pause");
 	return 0;

@@ -1,4 +1,11 @@
-﻿  LinkedListTest.h
+﻿  LinkedListMapTest.h
+  LinkedListTest.h
+  LoopQueueTest.h
+  ArrayQueueTest.h
+  ArrayStackTest.h
   MainTest.cpp
+E:\Workspace\Git\Cpp-Learning\vs2019\dataStructure\src\Trie.h(18,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\Workspace\Git\Cpp-Learning\vs2019\dataStructure\src\Trie.h(37,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Workspace\Git\Cpp-Learning\vs2019\dataStructure\src\Trie.h(52,21): warning C4018: “<”: 有符号/无符号不匹配
   正在生成代码...
   dataStructure.vcxproj -> E:\Workspace\Git\Cpp-Learning\vs2019\dataStructure\Debug\dataStructure.exe
