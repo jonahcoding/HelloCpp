@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -23,7 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{3ffb48c6-46b9-4ba4-838b-8d9f09b431a2}</ProjectGuid>
     <RootNamespace>DataStructuresandAlgorithms</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -140,7 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Algorithms\MainALGO.h" />
-    <ClInclude Include="src\Algorithms\StringMatching\BF.h" />
+    <ClInclude Include="src\Algorithms\Sort\BubbleSort.h" />
+    <ClInclude Include="src\Algorithms\Sort\SortTest.h" />
+    <ClInclude Include="src\Algorithms\StringMatching\BruteForce.h" />
+    <ClInclude Include="src\Algorithms\StringMatching\KMP.h" />
+    <ClInclude Include="src\Algorithms\StringMatching\StringMatchingTest.h" />
     <ClInclude Include="src\DataStructures\Array.h" />
     <ClInclude Include="src\DataStructures\ArrayPriorityQueue.h" />
     <ClInclude Include="src\DataStructures\ArrayPriorityQueueTest.h" />

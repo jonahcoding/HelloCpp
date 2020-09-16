@@ -1,4 +1,8 @@
 ﻿  Main.cpp
-E:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\src\Algorithms\StringMatching\BF.h(15,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\src\Algorithms\StringMatching\BF.h(16,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  Data Structures and Algorithms.vcxproj -> E:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\x64\Debug\Data Structures and Algorithms.exe
+d:\workspace\tzy\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\bruteforce.h(30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workspace\tzy\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\bruteforce.h(31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workspace\tzy\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\kmp.h(6): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workspace\tzy\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\kmp.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workspace\tzy\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\kmp.h(26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Data Structures and Algorithms.vcxproj -> D:\Workspace\TZY\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\x64\Debug\Data Structures and Algorithms.exe
+  Data Structures and Algorithms.vcxproj -> D:\Workspace\TZY\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\x64\Debug\Data Structures and Algorithms.pdb (Full PDB)

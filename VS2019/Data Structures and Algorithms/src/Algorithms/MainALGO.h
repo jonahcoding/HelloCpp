@@ -1,9 +1,10 @@
 #pragma once
 
-#include "StringMatching/BF.h"
-
+#include "StringMatching\StringMatchingTest.h"
+#include "Sort\SortTest.h"
 
 void MainALGO()
 {
-	BF();
+	//StringMatchingTest();
+	SortTest();
 }

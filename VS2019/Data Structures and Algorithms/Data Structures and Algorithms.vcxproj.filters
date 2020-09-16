@@ -171,7 +171,19 @@
     <ClInclude Include="src\DataStructures\MainDS.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Algorithms\StringMatching\BF.h">
+    <ClInclude Include="src\Algorithms\StringMatching\BruteForce.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\StringMatching\StringMatchingTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\StringMatching\KMP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\Sort\BubbleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\Sort\SortTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
