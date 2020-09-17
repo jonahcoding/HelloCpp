@@ -1,7 +1,7 @@
 #pragma once
 
 #include "BSTMap.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class BSTMapTest
 {

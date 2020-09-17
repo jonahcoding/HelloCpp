@@ -1,7 +1,7 @@
 #pragma once
 
 #include "LinkedListPriorityQueue.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class LinkedListPriorityQueueTest
 {

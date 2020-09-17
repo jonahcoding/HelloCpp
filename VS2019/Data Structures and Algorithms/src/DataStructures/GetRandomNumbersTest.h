@@ -1,6 +1,6 @@
 #pragma once
 
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class GetRandomNumbersTest
 {

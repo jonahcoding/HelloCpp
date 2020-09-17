@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ArrayPriorityQueue.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class ArrayPriorityQueueTest
 {

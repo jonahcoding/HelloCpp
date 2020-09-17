@@ -2,7 +2,7 @@
 
 #include <list>
 #include "BST.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class BSTTest
 {

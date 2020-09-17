@@ -1,7 +1,7 @@
 #pragma once
 
 #include "BSTSet.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 
 class BSTSetTest

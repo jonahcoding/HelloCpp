@@ -1,7 +1,7 @@
 #pragma once
 
 #include "SegmentTree.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class SegmentTreeTest
 {

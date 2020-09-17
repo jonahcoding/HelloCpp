@@ -1,7 +1,7 @@
 #pragma
 
 #include "LinkedListMap.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class LinkedListMapTest
 {

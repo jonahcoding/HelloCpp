@@ -15,6 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Algorithms\Sort\BubbleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\Sort\SortTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\StringMatching\BruteForce.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\StringMatching\KMP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\StringMatching\StringMatchingTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Algorithms\MainALGO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="src\DataStructures\Array.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -60,9 +78,6 @@
     <ClInclude Include="src\DataStructures\BTNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\DataStructures\GetRandomNumbers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\DataStructures\GetRandomNumbersTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -106,6 +121,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\DataStructures\LoopQueueTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataStructures\MainDS.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\DataStructures\Map.h">
@@ -165,25 +183,10 @@
     <ClInclude Include="src\DataStructures\TrieTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Algorithms\MainALGO.h">
+    <ClInclude Include="src\Generic\GetRandomNumbers.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\DataStructures\MainDS.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Algorithms\StringMatching\BruteForce.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Algorithms\StringMatching\StringMatchingTest.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Algorithms\StringMatching\KMP.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Algorithms\Sort\BubbleSort.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Algorithms\Sort\SortTest.h">
+    <ClInclude Include="src\Algorithms\Sort\QuickSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "MaxHeap.h"
-#include "GetRandomNumbers.h"
+#include "../Generic/GetRandomNumbers.h"
 
 class MaxHeapTest
 {
