@@ -19,8 +19,8 @@ vector<int> GenerateRandomArray(int begin = 0, int end = 100, int num = 10, bool
 	bool m_descendFlag = descendFlag;	//Sort all elements in descending order, it is false by default.
 
 	std::srand(unsigned(std::time(0)));
-	std::set<int> s_GRN;
-	std::vector<int> v_GRN;
+	std::set<int> s_GRA;
+	std::vector<int> v_GRA;
 
 	if (!m_repeatFlag)
 	{
@@ -31,33 +31,33 @@ vector<int> GenerateRandomArray(int begin = 0, int end = 100, int num = 10, bool
 			system("pause");
 			throw 0;
 		}
-		while (s_GRN.size() != m_num)
+		while (s_GRA.size() != m_num)
 		{
-			s_GRN.insert(rand() % (m_end - m_begin + 1) + m_begin);
+			s_GRA.insert(rand() % (m_end - m_begin + 1) + m_begin);
 		}
-		v_GRN.assign(s_GRN.begin(), s_GRN.end());
+		v_GRA.assign(s_GRA.begin(), s_GRA.end());
 	}
 	else
 	{
-		while (v_GRN.size() != m_num)
+		while (v_GRA.size() != m_num)
 		{
-			v_GRN.push_back(rand() % (m_end - m_begin + 1) + m_begin);
+			v_GRA.push_back(rand() % (m_end - m_begin + 1) + m_begin);
 		}
 	}
 	if (!m_orderFlag)
 	{
-		random_shuffle(v_GRN.begin(), v_GRN.end());
+		random_shuffle(v_GRA.begin(), v_GRA.end());
 	}
 	else if (!m_descendFlag)
 	{
-		sort(v_GRN.begin(), v_GRN.end());
+		sort(v_GRA.begin(), v_GRA.end());
 	}
 	else
 	{
-		sort(v_GRN.rbegin(), v_GRN.rend());
+		sort(v_GRA.rbegin(), v_GRA.rend());
 	}
 
-	return v_GRN;
+	return v_GRA;
 }
 
 #endif

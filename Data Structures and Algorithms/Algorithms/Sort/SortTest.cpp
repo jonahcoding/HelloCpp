@@ -21,21 +21,25 @@ void printArr(vector<int> arr)
 //Test Sorting Algorithm
 void test()
 {
-    // vector<int> arr = GenerateRandomArray(0, 20, 10); //无序
-    vector<int> arr = GenerateRandomArray(0, 20, 10, true); //无序，重复
-    // vector<int> arr = GenerateRandomArray(0, 20, 10, false, true); //有序，不重复
-    // vector<int> arr = GenerateRandomArray(0, 20, 10, true, true); //有序，重复
+    vector<int> arr = GenerateRandomArray(0, 20, 10); //不重值，无序
+    // vector<int> arr = GenerateRandomArray(0, 20, 10, true); //重值，无序
+    // vector<int> arr = GenerateRandomArray(0, 20, 10, false, true); //不重值，有序（升序）
+    // vector<int> arr = GenerateRandomArray(0, 20, 10, false, true, true); //不重值，降序
+    // vector<int> arr = GenerateRandomArray(0, 20, 10, true, true); //重值，有序（升序）
+    // vector<int> arr = GenerateRandomArray(0, 20, 10, true, true, true); //不重值，降序
+
     cout << "The random array generated is: " << endl;
     printArr(arr);
+
 
     // BubbleSort(arr);
     // CocktailSort(arr);
     // QuickSort(arr);
     //InsertSort(arr);
-    BinaryInsertSort(arr);
+    // BinaryInsertSort(arr);
 
 
-    printArr(arr);
+    // printArr(arr);
 
 }
 
