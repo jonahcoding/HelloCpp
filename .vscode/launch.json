@@ -7,7 +7,7 @@
             "request": "launch",
             "targetArchitecture": "x86",
             "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
-            "miDebuggerPath": "D:/App/MinGW/bin/gdb.exe",
+            "miDebuggerPath": "E:/App/MinGW64/bin/gdb.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
