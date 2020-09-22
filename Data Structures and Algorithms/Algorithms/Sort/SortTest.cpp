@@ -35,11 +35,11 @@ void test()
     // BubbleSort(arr);
     // CocktailSort(arr);
     // QuickSort(arr);
-    //InsertSort(arr);
+    // InsertSort(arr);
     // BinaryInsertSort(arr);
 
 
-    // printArr(arr);
+    printArr(arr);
 
 }
 
