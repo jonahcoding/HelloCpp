@@ -1,10 +1,8 @@
-﻿  Main.cpp
-d:\workspace\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\bruteforce.h(30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-d:\workspace\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\bruteforce.h(31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-d:\workspace\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\kmp.h(6): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-d:\workspace\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\kmp.h(25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-d:\workspace\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\stringmatching\kmp.h(26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-d:\workspace\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\sort\bubblesort.h(77): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-d:\workspace\git\cpp-learning\vs2019\data structures and algorithms\src\algorithms\sort\quicksort.h(41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-  Data Structures and Algorithms.vcxproj -> D:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\x64\Debug\Data Structures and Algorithms.exe
-  Data Structures and Algorithms.vcxproj -> D:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\x64\Debug\Data Structures and Algorithms.pdb (Full PDB)
+﻿生成启动时间为 2020/10/23 13:52:46。
+     1>项目“E:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\Data Structures and Algorithms.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets(44,5): error MSB8020: The builds tools for v140 (Platform Toolset = 'v140') cannot be found. To build using the v140 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install v140 to build using the v140 build tools.
+     1>已完成生成项目“E:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\Data Structures and Algorithms.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.74

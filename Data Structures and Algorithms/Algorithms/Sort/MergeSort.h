@@ -24,21 +24,7 @@ MergeSort（归并排序法）：
 
 void MergeSort(vector<int> &arr) 
 {
-    for (int i = 1; i < arr.size(); i++)
-    {
-        int left = 0, right = i - 1, tmp = arr[i];
-        while (left <= right)
-        {
-            int mid = (left + right) / 2;
-            if(arr[mid] > tmp)
-                right = mid - 1;
-            else
-                left = mid + 1;
-        }
-        for (int j = i-1; j >= left; j--)
-            arr[j+1] = arr[j];
-        arr[left] = tmp;
-    }
+    
 }
 
 #endif
