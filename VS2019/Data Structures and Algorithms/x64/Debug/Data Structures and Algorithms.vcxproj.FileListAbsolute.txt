@@ -1,2 +1,0 @@
-E:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\x64\Debug\Data Structures and Algorithms.exe
-E:\Workspace\Git\Cpp-Learning\VS2019\Data Structures and Algorithms\x64\Debug\Data Structures and Algorithms.pdb
