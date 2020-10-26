@@ -40,12 +40,10 @@ void quickSort(vector<int> &arr, int left, int right)
         while (low < high)
         {
             while (low < high && arr[high] >= datum) //升序
-            // while (low < high && arr[high] <= datum)    //降序
                 high--;
             if (low < high)
                 arr[low++] = arr[high];
             while (low < high && arr[low] <= datum)  //升序
-            // while (low < high && arr[low] >= datum)     //降序
                 low++;
             if (low < high)
                 arr[high--] = arr[low];
