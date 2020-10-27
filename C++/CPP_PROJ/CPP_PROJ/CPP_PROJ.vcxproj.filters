@@ -20,9 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\1.2 namespace.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\1.1 static.h">
       <Filter>头文件</Filter>
     </ClInclude>
