@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\static_02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\1.1 static.h" />

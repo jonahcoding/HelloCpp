@@ -2,50 +2,35 @@
 
 #include <iostream>
 
-using namespace std;
-
-class Person1
+class Person
 {
 public:
-	int mAge;
-	char* pName;
-
-	Person1()
+	static int m_A;
+	static void func()
 	{
-		mAge = 20;
-
-		pName = (char*)malloc(strlen("Jonah") + 1);
-		if (pName != NULL)
-		{
-			strcpy(pName, "Jonah");
-			cout << "malloc" << endl;
-		}
-		else
-		{
-			cout << "申请内存失败！";
-		}
+		m_A = 100;//静态成员方法只能访问静态成员变量。
+		std::cout << m_A << std::endl;
 	}
 };
 
-void test_malloc()
+int Person::m_A = 0;
+
+void test_Static()
 {
-	//分配内存
-	Person1* person = (Person1*)malloc(sizeof(Person1));
-	if (person == NULL) {}
-	else {}
+	//1.通过对象调用
+	Person p1;
+	std::cout << p1.m_A << std::endl;
+	p1.func();
+
+	//2.通过类名调用
+	std::cout << Person::m_A << std::endl;
+	Person::func();
 }
-
-
-
-
-
-
 
 int main()
 {
-	test_malloc();
+	test_Static();
 
 	system("pause");
 	return 0;
 }
-
