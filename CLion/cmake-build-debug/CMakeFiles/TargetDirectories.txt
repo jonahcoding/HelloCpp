@@ -1,3 +1,0 @@
-E:/Workspace/Git/Cpp-Learning/CLion/cmake-build-debug/CMakeFiles/CLion.dir
-E:/Workspace/Git/Cpp-Learning/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Workspace/Git/Cpp-Learning/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
